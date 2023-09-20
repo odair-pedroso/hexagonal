@@ -1,0 +1,4 @@
+pedroso:
+  client:
+    address:
+      url: http://localhost:8082/adresses
