@@ -16,7 +16,6 @@ public class ReceiveValidatedCpfConsumer {
     @Autowired
     private CustomerMessageMapper customerMessageMapper;
 
-
     @KafkaListener(topics = "tp-cpf-validated", groupId = "pedroso")
     public void receive(CustomerMessage customerMessage) {
         var customer = customerMessageMapper.toCustomer(customerMessage);
