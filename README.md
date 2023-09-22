@@ -1,6 +1,6 @@
 # hexagonal api
 
-> API de exemplo para o projeto whats app cloud , com arquitetura hexagonal , banco NOSQL Mongo e conectividade com produtores e consumidores kafka
+> API de exemplo , com arquitetura hexagonal , banco NOSQL Mongo e conectividade com produtores e consumidores kafka
 
 ![img.png](img.png)
 
